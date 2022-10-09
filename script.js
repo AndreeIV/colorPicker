@@ -11,7 +11,7 @@ function startup() {
     body.style.backgroundColor = "#98b37d";
     colorPicker.value = defaultColor;
     colorPicker.addEventListener("input", updateFirst);
-    colorPicker.select();
+    // colorPicker.select();
 }
 
 
