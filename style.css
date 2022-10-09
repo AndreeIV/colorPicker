@@ -1,2 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --fuente-principal: 'Roboto', sans-serif;
+    --color-negro: black;
+    --separacion: 5rem;
+}
 
+.title {
+    font-size: 15rem;
+    text-align: center;
+    color: black;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-family: var(--fuente-principal);
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+
+.contenedor {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    color: var(--color-negro);
+    font-size: 2rem;
+}
+
+
+h1, h2, h3 {
+    font-family: var(--fuente-principal);
+    margin: var(--separacion) / 2 0;
+    font-weight: 300;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+h2 {
+    font-size: 3.4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 2.6rem;
+}
